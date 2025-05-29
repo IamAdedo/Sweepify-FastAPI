@@ -16,15 +16,17 @@ A SaaS platform built with **FastAPI** that helps users securely sweep funds fro
 - 🐳 Dockerized for easy deployment
 
 ## 🛠️ Tech Stack
-- FastAPI
-- SQLAlchemy (PostgreSQL or SQLite)
-- Docker / Docker Compose
-- JWT Auth + TOTP (2FA)
+- **Backend**: FastAPI + SQLAlchemy
+- **Database**: PostgreSQL or SQLite
+- **Auth**: JWT + 2FA (PyOTP)
+- **Notifications**: SMTP + Telegram Bot API
+- **Deployment**: Docker & Docker Compose
+
 
 ## 📦 Deployment
 
 ```bash
-git clone  https://github.com/your-username/sweepify-fastapi.git
+git clone  https://github.com/IamAdedo/sweepify-fastapi.git
 cd sweepify-fastapi
 cp .env.example .env
 docker-compose up --build
@@ -37,3 +39,38 @@ Sweepify is intended for ethical recovery of assets from wallets under user cont
 
 
 with ❤️ by 𝙸𝚊𝚖𝙰𝚍𝚎𝚍𝚘 𓆩☬𓆪 ㄒ卄乇 ㄥ卂乙ㄚ 卄凵几ㄒ乇尺
+
+
+# 🧹 Sweepify (FastAPI Edition)
+
+**Sweepify** is a secure crypto sweeping platform built with **FastAPI**, enabling users to safely transfer tokens from compromised wallets to secure addresses across multiple blockchains.
+
+## 🌟 Key Features
+
+- ✅ **Multi-chain support**: Pi (placeholder), BTC, ETH, BSC, TON, SUI
+- 🔐 **Private key encryption** (AES-256)
+- 📱 **2FA (TOTP)** with backup codes
+- 📩 **Email & Telegram notifications**
+- 💸 **10% service fee** on every sweep (configurable)
+- 🧑‍💼 Admin dashboard (coming soon)
+- 🐳 Dockerized for easy deployment
+
+---
+
+## ⚙️ Tech Stack
+
+- **Backend**: FastAPI + SQLAlchemy
+- **Database**: PostgreSQL or SQLite
+- **Auth**: JWT + 2FA (PyOTP)
+- **Notifications**: SMTP + Telegram Bot API
+- **Deployment**: Docker & Docker Compose
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/your-username/sweepify-fastapi.git
+cd sweepify-fastapi
+cp .env.example .env
+docker-compose up --build
