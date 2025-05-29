@@ -28,7 +28,7 @@ git clone  https://github.com/your-username/sweepify-fastapi.git
 cd sweepify-fastapi
 cp .env.example .env
 docker-compose up --build
-
+```
 
 
 ## ⚠️ Disclaimer
