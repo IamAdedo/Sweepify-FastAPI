@@ -28,3 +28,12 @@ git clone  https://github.com/your-username/sweepify-fastapi.git
 cd sweepify-fastapi
 cp .env.example .env
 docker-compose up --build
+
+
+
+## ⚠️ Disclaimer
+
+Sweepify is intended for ethical recovery of assets from wallets under user control. Misuse is strictly prohibited. The developers are not liable for unauthorized use of this software.
+
+
+with ❤️ by 𝙸𝚊𝚖𝙰𝚍𝚎𝚍𝚘 𓆩☬𓆪 ㄒ卄乇 ㄥ卂乙ㄚ 卄凵几ㄒ乇尺
