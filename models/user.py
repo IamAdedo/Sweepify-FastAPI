@@ -1,0 +1,1 @@
+sweep_configs = relationship("SweepConfig", back_populates="user", cascade="all, delete-orphan")
