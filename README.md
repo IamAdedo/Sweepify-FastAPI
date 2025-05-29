@@ -39,4 +39,6 @@ Sweepify is intended for ethical recovery of assets from wallets under user cont
 
 
 made with ❤️ by **𝙸𝚊𝚖𝙰𝚍𝚎𝚍𝚘 𓆩☬𓆪, ㄒ卄乇 ㄥ卂乙ㄚ 卄凵几ㄒ乇尺**
-
+---
+![GitHub stars](https://img.shields.io/github/stars/IamAdedo/Sweepify-FastAPI?style=social)
+![License](https://img.shields.io/badge/license-MIT-blue)
