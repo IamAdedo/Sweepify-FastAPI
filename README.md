@@ -11,7 +11,7 @@ A FastAPI-based SaaS that enables users to securely sweep funds from compromised
 - 🔐 Encrypted private key storage
 - 🛡️ Two-Factor Authentication (2FA)
 - ✉️ Email and Telegram notifications
-- 🧮 Dynamic service fee configuration (default: 10%)
+- 🧮 Dynamic service fee configuration (default: 10%) 
 - 🧑‍💼 Admin dashboard for managing users, logs, and system settings
 - 🐳 Dockerized for easy deployment
 
