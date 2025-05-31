@@ -22,3 +22,4 @@ class SweepConfigResponse(SweepConfigCreate):
 
     class Config:
         orm_mode = True
+
